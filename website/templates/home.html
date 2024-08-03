@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+
+    <section>
+        <h1> Hi,{{ session['username'] }} </h1>
+        <p>{{data}}</p>
+    </section>
+
+{% endblock %}
